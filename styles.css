@@ -1,0 +1,47 @@
+main {
+    display:flex;
+}
+
+
+.div {
+    width: 80px;
+    height:80px;
+    animation: OpacityChange 3s;
+    animation-iteration-count: infinite;
+}
+
+.case-1 {
+    background-color: red;
+}
+.case-2 {
+    background-color: orange;
+}
+.case-3 {
+    background-color: yellow;
+}
+.case-4 {
+    background-color: green;
+}
+.case-5 {
+    background-color: blue;
+}
+.case-6 {
+    background-color: indigo;
+}
+.case-7 {
+    background-color: violet;
+}
+
+
+
+@keyframes OpacityChange {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
